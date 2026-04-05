@@ -30,8 +30,8 @@ Build Tools: cmake or pkg-config.
 Bash
 # Install dependencies on Arch/CachyOS
 sudo pacman -S base-devel cmake qt6-base ffmpeg
-##  Building the Project
-#  Option 1: Using CMake (Recommended)
+#  Building the Project
+##  Option 1: Using CMake (Recommended)
 Ensure your configuration file is named exactly CMakeLists.txt (case-sensitive).
 
 Run the following:
@@ -42,7 +42,7 @@ cmake ..
 make
 ./BassBooster
 
-# Option 2: Manual Compilation via g++
+## Option 2: Manual Compilation via g++
 If you prefer a direct approach without CMake:
 
 /usr/lib/qt6/moc main.cpp -o main.moc
