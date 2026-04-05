@@ -35,24 +35,21 @@ Option 1: Using CMake (Recommended)
 Ensure your configuration file is named exactly CMakeLists.txt (case-sensitive).
 
 Run the following:
-
+-------------------------------------
 Bash
 mkdir build && cd build
 cmake ..
 make
 ./BassBooster
+-------------------------------------
 Option 2: Manual Compilation via g++
 If you prefer a direct approach without CMake:
 
-Bash
-# Generate Qt Meta-Object code
+-------------------------------------
 /usr/lib/qt6/moc main.cpp -o main.moc
-
-# Compile with Qt6 flags
 g++ main.cpp -o ShakalBoost -fPIC $(pkg-config --cflags --libs Qt6Widgets)
-
-# Run
-./ShakalBoost
+Run --- ./ShakalBoost
+-------------------------------------
  How to Use
 Click "Select song" to load your .mp3 or .wav file.
 
