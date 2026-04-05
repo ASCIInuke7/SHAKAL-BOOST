@@ -1,3 +1,7 @@
+<img width="446" height="318" alt="image" src="https://github.com/user-attachments/assets/cbe815e9-f924-40c7-b199-c0fb0e3c4498" />
+
+
+
 Shakal Bass Booster 3000
 A high-performance C++ application with a Qt6 graphical interface designed to transform clean audio into "Deep Fried" / "Earrape" masterpieces. This tool leverages the power of the FFmpeg engine to apply aggressive digital signal processing (DSP) in real-time.
 
