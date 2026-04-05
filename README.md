@@ -31,25 +31,26 @@ Bash
 # Install dependencies on Arch/CachyOS
 sudo pacman -S base-devel cmake qt6-base ffmpeg
 #  Building the Project
-Option 1: Using CMake (Recommended)
+#  Option 1: Using CMake (Recommended)
 Ensure your configuration file is named exactly CMakeLists.txt (case-sensitive).
 
 Run the following:
--------------------------------------
+
 Bash
 mkdir build && cd build
 cmake ..
 make
 ./BassBooster
--------------------------------------
-Option 2: Manual Compilation via g++
+
+# Option 2: Manual Compilation via g++
 If you prefer a direct approach without CMake:
 
--------------------------------------
 /usr/lib/qt6/moc main.cpp -o main.moc
 g++ main.cpp -o ShakalBoost -fPIC $(pkg-config --cflags --libs Qt6Widgets)
-Run --- ./ShakalBoost
--------------------------------------
+Run 
+
+./ShakalBoost
+
  How to Use
 Click "Select song" to load your .mp3 or .wav file.
 
