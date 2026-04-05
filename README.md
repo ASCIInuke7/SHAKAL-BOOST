@@ -48,10 +48,9 @@ If you prefer a direct approach without CMake:
 /usr/lib/qt6/moc main.cpp -o main.moc
 g++ main.cpp -o ShakalBoost -fPIC $(pkg-config --cflags --libs Qt6Widgets)
 Run 
-
 ./ShakalBoost
 
- How to Use
+# How to Use
 Click "Select song" to load your .mp3 or .wav file.
 
 Dial up the "Bass power" for low-end pressure.
